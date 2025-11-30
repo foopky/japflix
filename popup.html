@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI 단어장</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 10px;
+        width: 240px;
+      }
+      input,
+      select,
+      button {
+        width: 100%;
+        margin-top: 5px;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h3>AI 자막 설정</h3>
+    <label for="apiKey">API Key</label>
+    <input type="text" id="apiKey" placeholder="OpenAI API 키 입력" />
+
+    <label for="targetLang">번역 언어</label>
+    <select id="targetLang">
+      <option value="ko">한국어</option>
+      <option value="ja">일본어</option>
+      <option value="en">영어</option>
+    </select>
+
+    <button id="saveBtn">저장</button>
+
+    <hr />
+    <button id="openExam">단어장</button>
+    <script src="user.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

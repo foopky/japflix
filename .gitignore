@@ -1,0 +1,6 @@
+manifest.json
+icons/
+node_modules/
+
+api.js
+user.js
